@@ -17,10 +17,13 @@ function App() {
           <label>ล่าง :</label>&nbsp;
           <input type="text" className="number" name="number" id="number"></input>&nbsp;
           </div>
-          
       </header>
     </div>
+    
   );
 }
-
+function GetNumber() {
+  const numberlist = [];
+  numberlist[0] = document.getElementById('number');
+}
 export default App;
