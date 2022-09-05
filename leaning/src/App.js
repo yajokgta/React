@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 var logic = require("./logic.js");
 function App() {
-  var numberbt = 10;
+  var numberbt = 20;
 
-  var shownumber = <label>{numberbt}</label>
+  var shownumber = <button className= "btnshow" value="Show">{numberbt}</button>
   return (
     <div className="App">
       <header className="App-header">
