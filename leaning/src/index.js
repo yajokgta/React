@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import FormComponent from './component/FormComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
+    <form>
     <App />
+    <FormComponent />
+    </form>
+    
   </React.StrictMode>
 );
 
