@@ -3,11 +3,17 @@ import { useState } from "react";
 
 
 function App() {
+<<<<<<< HEAD
 
   var numberbt = 20;
+=======
+  var numberbt = 10;
+>>>>>>> e0dff9be20e6a765cd5efb59c11728a5b668353b
 
-  var shownumber = <button className= "btnshow" value="Show">{numberbt}</button>
+  var shownumber = <label>{numberbt}</label>
   return (
+    //testing
+    //testing
     <div className="App">
       <header className="App-header">
         <div>
@@ -15,7 +21,7 @@ function App() {
             <h1>{shownumber}</h1>
             
           </div>
-        </div>
+          </div>
           <div>
           <label>กรอกตัวเลข :</label>&nbsp;
           <input type="text" className="number" name="number" id="number"></input>&nbsp;
