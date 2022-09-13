@@ -6,13 +6,15 @@ function App() {
 
   var shownumber = <label>{numberbt}</label>
   return (
+    //testing
+    //testing
     <div className="App">
       <header className="App-header">
         <div>
           <div className="numberlist-item">
             <h1>{shownumber}</h1>
           </div>
-        </div>
+          </div>
           <div>
           <label>กรอกตัวเลข :</label>&nbsp;
           <input type="text" className="number" name="number" id="number"></input>&nbsp;
