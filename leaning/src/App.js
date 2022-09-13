@@ -2,17 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 var logic = require("./logic.js");
 function App() {
-  var numberbt = 20;
+  var numberbt = 10;
 
-  var shownumber = <button className= "btnshow" value="Show">{numberbt}</button>
+  var shownumber = <label>{numberbt}</label>
   return (
+    //testing
     <div className="App">
       <header className="App-header">
         <div>
           <div className="numberlist-item">
             <h1>{shownumber}</h1>
           </div>
-        </div>
+          </div>
           <div>
           <label>กรอกตัวเลข :</label>&nbsp;
           <input type="text" className="number" name="number" id="number"></input>&nbsp;
