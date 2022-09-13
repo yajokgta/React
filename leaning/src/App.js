@@ -1,7 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-var logic = require("./logic.js");
+import { useState } from "react";
+
+
 function App() {
+
   var numberbt = 20;
 
   var shownumber = <button className= "btnshow" value="Show">{numberbt}</button>
@@ -11,6 +13,7 @@ function App() {
         <div>
           <div className="numberlist-item">
             <h1>{shownumber}</h1>
+            
           </div>
         </div>
           <div>
