@@ -3,13 +3,8 @@ import { useState } from "react";
 
 
 function App() {
-<<<<<<< HEAD
-
   var numberbt = 20;
-=======
   var numberbt = 10;
->>>>>>> e0dff9be20e6a765cd5efb59c11728a5b668353b
-
   var shownumber = <label>{numberbt}</label>
   return (
     //testing
